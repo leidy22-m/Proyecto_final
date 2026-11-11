@@ -1,0 +1,29 @@
+{
+  "semilla": 42,
+  "fracción_test": 0.2,
+  "fracción_validation": 0.2,
+  "épocas_máximas": 100,
+  "paciencia": 10,
+  "tamaño_lote": 128,
+  "tasa_aprendizaje": 0.003,
+  "decaimiento_pesos": 1e-05,
+  "recorte_gradiente": 1.0,
+  "semillas": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "métrica_primaria": "RMSE de θ(t+H) en rad, conjunto test",
+  "n_trayectorias": 300,
+  "n_ood": 60,
+  "paso_muestreo": 0.05,
+  "duración": 20.0,
+  "ruido_obs": 0.02,
+  "horizonte": 10,
+  "largo_ventana": 60,
+  "contexto_mlp": 20,
+  "calentamiento": 19,
+  "paso_ventanas_train": 20
+}
